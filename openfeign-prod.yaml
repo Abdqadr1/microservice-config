@@ -4,7 +4,7 @@ spring:
   application:
     environment: production
     config:
-      type: filesystem
+      type: git
     name: openfeign
 feign:
   circuitbreaker:

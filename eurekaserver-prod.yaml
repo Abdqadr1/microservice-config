@@ -2,7 +2,7 @@ spring:
   application:
     environment: production
     config:
-      type: filesystem
+      type: git
     name: eurekaserver
 server:
   port: 8761
@@ -16,6 +16,5 @@ logging:
       netflix:
         eureka: OFF
         discovery: OFF
-
 #  logging.level.com.netflix.eureka=OFF
 #  logging.level.com.netflix.discovery=OFF

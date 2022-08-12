@@ -2,7 +2,7 @@ spring:
   application:
     environment: default
     config:
-      type: filesystem
+      type: git
     name: eurekaserver
 server:
   port: 8761
