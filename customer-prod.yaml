@@ -14,7 +14,7 @@ spring:
       password: example
       database: qadr_mongodb
       port: 27017
-      host: localhost
+      host: mongodb
   #      uri: mongodb://localhost:27017/qadr
   application:
     environment: production
@@ -24,7 +24,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://eurekaserver:8761/eureka
 logging:
   level:
     com:
